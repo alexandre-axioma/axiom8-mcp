@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "axiom8-mcp": {
+      "command": "docker",
+      "args": [
+        "run", "-i", "--rm",
+        "--name", "axiom8-mcp-claude",
+        "-e", "MCP_MODE=stdio",
+        "-e", "LOG_LEVEL=error",
+        "-e", "DISABLE_CONSOLE_OUTPUT=true",
+        "-e", "ENABLE_SEMANTIC_SEARCH=true",
+        "-e", "OPENAI_API_KEY=your-openai-api-key-here",
+        "-e", "COHERE_API_KEY=your-cohere-api-key-here",
+        "-e", "ENABLE_COHERE_RERANKING=true",
+        "axiom8-mcp:latest"
+      ]
+    }
+  }
+}
