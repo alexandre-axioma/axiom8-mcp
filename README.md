@@ -205,6 +205,7 @@ Pre-built Knowledge Base
 ## 📚 Documentation
 
 - **[Complete Installation Guide](./INSTALLATION_GUIDE.md)** - Step-by-step setup from zero
+- **[Tools Reference](./docs/TOOLS.md)** - Comprehensive guide to all 21 MCP tools with examples and performance tips
 
 
 ## 🚨 Troubleshooting
